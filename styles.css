@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
 body, html {
   height: 100%;
   margin: 0;
@@ -33,11 +34,16 @@ video {
 }
 
 .login-form {
-  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid white;
+  backdrop-filter: blur(10px);
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 2;
+  font-family: "Playwrite NZ", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .login-form .form-control {

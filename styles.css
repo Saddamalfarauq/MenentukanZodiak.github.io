@@ -29,7 +29,7 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1; /* Ensure the login container is above the video */
+  z-index: 1;
 }
 
 .login-form {

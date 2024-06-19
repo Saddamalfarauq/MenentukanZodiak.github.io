@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <body>
         <div class='video-background'>
             <video autoplay loop muted>
-                <source src='assets/background-video.mp4' type='video/mp4'>
+                <source src='assets/background_video.mp4' type='video/mp4'>
             </video>
         </div>
         <div class='container'>
